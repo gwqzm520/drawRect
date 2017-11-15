@@ -9,7 +9,12 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
-
+{
+    int                nBmpWi, nBmpHi ;
+    char              *pBmpBuf ;
+}
+- (IBAction)clickCheck:(id)sender;
+@property (weak) IBOutlet NSButton *checkBtn;
 
 @end
 
